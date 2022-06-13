@@ -1,0 +1,152 @@
+2022-06-13 18:14:17,569 INFO autoreload Watching for file changes with StatReloader
+2022-06-13 18:14:21,531 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-13 18:14:21,585 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 1553
+2022-06-13 18:14:21,829 WARNING log Not Found: /apple-touch-icon-precomposed.png
+2022-06-13 18:14:21,829 WARNING log Not Found: /favicon.ico
+2022-06-13 18:14:21,831 WARNING basehttp "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3096
+2022-06-13 18:14:21,832 WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3033
+2022-06-13 18:14:21,844 WARNING log Not Found: /apple-touch-icon.png
+2022-06-13 18:14:21,845 WARNING basehttp "GET /apple-touch-icon.png HTTP/1.1" 404 3060
+2022-06-13 18:14:32,278 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-13 18:14:32,282 INFO views Зашел username admin mail 
+2022-06-13 18:14:32,299 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2022-06-13 18:14:32,301 ERROR basehttp "GET / HTTP/1.1" 500 78573
+2022-06-13 18:29:08,798 INFO autoreload Watching for file changes with StatReloader
+2022-06-13 18:29:09,923 INFO views Зашел username admin mail 
+2022-06-13 18:29:09,936 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-13 18:29:16,441 INFO basehttp "GET /admin/ HTTP/1.1" 200 16043
+2022-06-13 18:29:16,444 INFO basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2022-06-13 18:29:16,450 INFO basehttp "GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 30801
+2022-06-13 18:29:16,451 INFO basehttp "GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 184243
+2022-06-13 18:29:16,467 INFO basehttp "GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+2022-06-13 18:29:16,468 INFO basehttp "GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27664
+2022-06-13 18:29:16,468 INFO basehttp "GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+2022-06-13 18:29:16,469 INFO basehttp "GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+2022-06-13 18:29:16,469 INFO basehttp "GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 254916
+2022-06-13 18:29:16,493 INFO basehttp "GET /static/grappelli/images/icons-small-sc29b5b842f.png HTTP/1.1" 200 2438
+2022-06-13 18:29:23,055 INFO basehttp "GET /admin/app/categorys/ HTTP/1.1" 200 10763
+2022-06-13 18:29:23,081 INFO basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8337
+2022-06-13 18:29:23,081 INFO basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7923
+2022-06-13 18:29:23,081 INFO basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+2022-06-13 18:29:23,083 INFO basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2022-06-13 18:29:23,083 INFO basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+2022-06-13 18:29:23,085 INFO basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2022-06-13 18:29:23,088 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:29:23,091 INFO basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+2022-06-13 18:29:23,091 INFO basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2022-06-13 18:29:23,112 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:29:23,119 INFO basehttp "GET /static/grappelli/images/icons-s79f97b581c.png HTTP/1.1" 200 9844
+2022-06-13 18:29:23,119 INFO basehttp "GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 200 289
+2022-06-13 18:29:51,783 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15377
+2022-06-13 18:29:51,810 INFO basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+2022-06-13 18:29:51,812 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:29:58,161 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:29:58,186 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15873
+2022-06-13 18:29:58,198 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:08,564 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:08,595 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15871
+2022-06-13 18:30:08,610 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:18,222 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:18,272 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15867
+2022-06-13 18:30:18,295 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:26,625 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:26,670 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15879
+2022-06-13 18:30:26,693 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:34,560 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:34,609 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15885
+2022-06-13 18:30:34,633 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:42,643 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:42,691 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15885
+2022-06-13 18:30:42,712 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:49,945 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:49,993 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15877
+2022-06-13 18:30:50,014 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:30:57,977 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:30:58,042 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15881
+2022-06-13 18:30:58,068 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:31:06,703 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:31:06,745 INFO basehttp "GET /admin/app/categorys/add/ HTTP/1.1" 200 15881
+2022-06-13 18:31:06,767 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:31:20,748 INFO basehttp "POST /admin/app/categorys/add/ HTTP/1.1" 302 0
+2022-06-13 18:31:20,794 INFO basehttp "GET /admin/app/categorys/ HTTP/1.1" 200 15344
+2022-06-13 18:31:20,818 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:31:20,824 INFO basehttp "GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 200 244
+2022-06-13 18:31:24,720 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-13 18:31:28,642 INFO basehttp "GET /admin/app/categorys/ HTTP/1.1" 200 14897
+2022-06-13 18:31:28,663 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:31:30,468 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-13 18:31:31,443 INFO basehttp "GET /admin/app/posts/ HTTP/1.1" 200 10739
+2022-06-13 18:31:31,472 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-13 18:31:32,931 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-13 18:31:34,167 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-13 18:31:54,113 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-13 18:31:55,001 INFO views Зашел username admin mail 
+2022-06-13 18:31:55,007 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-13 18:31:59,083 INFO basehttp "GET /posts HTTP/1.1" 301 0
+2022-06-13 18:31:59,095 INFO views Зашел username admin mail 
+2022-06-13 18:31:59,146 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 19, in get
+    cat = int(self.kwargs.get('cat'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-13 18:31:59,150 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75945
+2022-06-13 18:32:04,869 INFO views Зашел username admin mail 
+2022-06-13 18:32:04,899 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 19, in get
+    cat = int(self.kwargs.get('cat'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-13 18:32:04,900 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75945
+2022-06-13 18:32:05,857 WARNING log Not Found: /post
+2022-06-13 18:32:05,858 WARNING basehttp "GET /post HTTP/1.1" 404 3012
+2022-06-13 18:32:20,294 INFO views Зашел username admin mail 
+2022-06-13 18:32:20,319 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 19, in get
+    cat = int(self.kwargs.get('cat'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-13 18:32:20,320 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75945
