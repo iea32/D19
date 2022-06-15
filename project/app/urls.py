@@ -5,6 +5,7 @@ urlpatterns = [
     path('', IndexView.as_view() ),
     path('<int:cat>', IndexView.as_view() ),
     path('create/<int:cat>', CreateView.as_view() ),
+    # path('create/', CreateView.as_view() ),
     path('<int:cat>/post/<int:post>', DetailView.as_view()),
     path('<int:cat>/post/<int:post>/clicks/', include('clicks.urls')),
 ]

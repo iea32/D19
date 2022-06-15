@@ -5,6 +5,7 @@ from django import forms
 from django.template.loader import render_to_string
 
 from allauth.account.forms import SignupForm
+from django.contrib.auth.models import Group
 #from django.contrib.auth.models import Group
 
 from django.core.mail import EmailMultiAlternatives # send_mail
@@ -32,6 +33,8 @@ class BasicSignupForm(SignupForm):
 
     def save(self, request):
         user = super(BasicSignupForm, self).save(request)
+        basic_group = Group.objects.get(name='registered_users')
+        basic_group.user_set.add(user)
 
         if user.email:
             html_content = render_to_string(
@@ -44,7 +47,7 @@ class BasicSignupForm(SignupForm):
 
             msg = EmailMultiAlternatives(
                 subject='Доска объявлений MMORPG',
-                from_email='Skill.testing@yandex.ru',
+                from_email='te5t12.12@yandex.ru',
                 to=[user.email],
             )
             msg.attach_alternative(html_content, "text/html")  # добавляем html

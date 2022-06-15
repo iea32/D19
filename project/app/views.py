@@ -16,15 +16,17 @@ class IndexView(LoginRequiredMixin, TemplateView):
 
     def get(self, request, *args, **kwargs):
         logger.info(f'Зашел username {request.user.username} mail {request.user.email}')
-        cat = int(self.kwargs.get('cat'))
+        # cat = int(self.kwargs.get('cat'))
+        cat = self.kwargs.get('cat')
         context = self.get_context_data()
         context['cats'] = Categorys.objects.order_by('sort')
         context['type_user'] = user_type(request.user)
         context['user_cat'] = cat
 
-        if Categorys.objects.filter(pk=int(cat)).exists():
+        # if Categorys.objects.filter(pk=int(cat)).exists():
+        if Categorys.objects.filter(pk=cat).exists():
             #Переданый код есть в базе
-            context['posts'] = Posts.objects.filter(cats_id=int(cat)).order_by('-created')
+            context['posts'] = Posts.objects.filter(cats_id=cat).order_by('-created')
         else:
             context['posts'] = Posts.objects.all().order_by('-created')
 

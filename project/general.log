@@ -150,3 +150,675 @@ Traceback (most recent call last):
     cat = int(self.kwargs.get('cat'))
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
 2022-06-13 18:32:20,320 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75945
+2022-06-15 17:05:29,763 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:06:49,490 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 17:06:49,526 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 17:07:01,767 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 17:07:01,774 INFO views Зашел username admin mail 
+2022-06-15 17:07:01,777 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:07:12,245 INFO views Зашел username admin mail 
+2022-06-15 17:07:12,251 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:07:12,675 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 302 0
+2022-06-15 17:07:12,687 INFO views Зашел username admin mail 
+2022-06-15 17:07:12,691 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:07:13,124 INFO basehttp "GET /admin/ HTTP/1.1" 200 20056
+2022-06-15 17:07:13,135 INFO basehttp "GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+2022-06-15 17:07:13,146 INFO basehttp "GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+2022-06-15 17:07:13,146 INFO basehttp "GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+2022-06-15 17:07:13,156 INFO basehttp "GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+2022-06-15 17:07:13,156 INFO basehttp "GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+2022-06-15 17:07:13,156 INFO basehttp "GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+2022-06-15 17:07:13,156 INFO basehttp "GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+2022-06-15 17:07:13,192 INFO basehttp "GET /static/grappelli/images/icons-small-sc29b5b842f.png HTTP/1.1" 304 0
+2022-06-15 17:07:21,815 INFO basehttp "GET /admin/sites/site/ HTTP/1.1" 200 14046
+2022-06-15 17:07:21,837 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:07:21,856 INFO basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,857 INFO basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,857 INFO basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,858 INFO basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,859 INFO basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,859 INFO basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,859 INFO basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,859 INFO basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2022-06-15 17:07:21,881 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:07:21,891 INFO basehttp "GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+2022-06-15 17:07:21,892 INFO basehttp "GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+2022-06-15 17:07:21,892 INFO basehttp "GET /static/grappelli/images/icons-s79f97b581c.png HTTP/1.1" 304 0
+2022-06-15 17:08:04,142 INFO views Зашел username admin mail 
+2022-06-15 17:08:04,148 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:08:12,991 INFO basehttp "GET /admin/sites/site/ HTTP/1.1" 200 14046
+2022-06-15 17:08:12,997 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:08:13,050 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:08:15,699 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:08:16,614 INFO views Зашел username admin mail 
+2022-06-15 17:08:16,620 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:08:17,668 INFO views Зашел username admin mail 
+2022-06-15 17:08:17,723 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 19, in get
+    cat = int(self.kwargs.get('cat'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-15 17:08:17,727 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75953
+2022-06-15 17:08:19,178 INFO views Зашел username admin mail 
+2022-06-15 17:08:19,210 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 19, in get
+    cat = int(self.kwargs.get('cat'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-15 17:08:19,210 ERROR basehttp "GET /posts/ HTTP/1.1" 500 75953
+2022-06-15 17:10:39,184 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py changed, reloading.
+2022-06-15 17:10:39,418 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:10:40,121 INFO views Зашел username admin mail 
+2022-06-15 17:10:40,167 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 26, in get
+    if Categorys.objects.filter(pk=int(cat)).exists():
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-15 17:10:40,171 ERROR basehttp "GET /posts/ HTTP/1.1" 500 76935
+2022-06-15 17:12:05,870 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:12:07,389 INFO views Зашел username admin mail 
+2022-06-15 17:12:07,394 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:12:10,149 INFO views Зашел username admin mail 
+2022-06-15 17:12:10,153 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:12:10,900 INFO views Зашел username admin mail 
+2022-06-15 17:12:10,952 ERROR log Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py", line 26, in get
+    if Categorys.objects.filter(pk=int(cat)).exists():
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2022-06-15 17:12:10,957 ERROR basehttp "GET /posts/ HTTP/1.1" 500 76935
+2022-06-15 17:13:53,632 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/views.py changed, reloading.
+2022-06-15 17:13:53,837 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:13:54,886 INFO views Зашел username admin mail 
+2022-06-15 17:13:54,906 INFO basehttp "GET /posts/ HTTP/1.1" 200 6809
+2022-06-15 17:13:54,924 INFO basehttp "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 391863
+2022-06-15 17:14:11,405 WARNING log Not Found: /posts/create/None
+2022-06-15 17:14:11,405 WARNING basehttp "GET /posts/create/None HTTP/1.1" 404 3829
+2022-06-15 17:17:14,908 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/urls.py changed, reloading.
+2022-06-15 17:17:15,099 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:17:19,278 WARNING log Not Found: /posts/create/
+2022-06-15 17:17:19,278 WARNING basehttp "GET /posts/create/ HTTP/1.1" 404 3801
+2022-06-15 17:17:43,095 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:17:44,705 INFO views Зашел username admin mail 
+2022-06-15 17:17:44,710 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:17:47,661 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:17:51,851 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:17:52,635 INFO views Зашел username admin mail 
+2022-06-15 17:17:52,641 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:17:53,654 INFO views Зашел username admin mail 
+2022-06-15 17:17:53,665 INFO basehttp "GET /posts/ HTTP/1.1" 200 6809
+2022-06-15 17:17:55,064 INFO views Зашел username admin mail 
+2022-06-15 17:17:55,074 INFO basehttp "GET /posts/ HTTP/1.1" 200 6809
+2022-06-15 17:17:58,929 WARNING log Not Found: /posts/create/None
+2022-06-15 17:17:58,930 WARNING basehttp "GET /posts/create/None HTTP/1.1" 404 3813
+2022-06-15 17:19:33,293 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/urls.py changed, reloading.
+2022-06-15 17:19:33,557 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:19:49,206 INFO views Зашел username admin mail 
+2022-06-15 17:19:49,222 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:19:49,818 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:19:53,487 INFO basehttp "GET /admin/app/categorys/ HTTP/1.1" 200 14897
+2022-06-15 17:19:53,503 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:19:55,595 INFO basehttp "GET /admin/app/categorys/10/change/ HTTP/1.1" 200 15751
+2022-06-15 17:19:55,614 INFO basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2022-06-15 17:19:55,616 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:00,000 INFO basehttp "GET /admin/app/categorys/9/change/ HTTP/1.1" 200 15715
+2022-06-15 17:20:00,023 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:19,011 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-15 17:20:21,439 INFO basehttp "GET /admin/app/posts/ HTTP/1.1" 200 10739
+2022-06-15 17:20:21,469 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:25,801 INFO basehttp "GET /admin/app/posts/add/ HTTP/1.1" 200 20188
+2022-06-15 17:20:25,821 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:25,821 INFO basehttp "GET /tinymce/filebrowser/ HTTP/1.1" 200 509
+2022-06-15 17:20:25,823 INFO basehttp "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2100
+2022-06-15 17:20:25,860 INFO basehttp "GET /static/tinymce/themes/silver/theme.min.js HTTP/1.1" 200 403178
+2022-06-15 17:20:25,913 INFO basehttp "GET /static/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 200 395
+2022-06-15 17:20:25,915 INFO basehttp "GET /static/tinymce/icons/default/icons.min.js HTTP/1.1" 200 63894
+2022-06-15 17:20:25,915 INFO basehttp "GET /static/tinymce/langs/ru.js HTTP/1.1" 200 50976
+2022-06-15 17:20:25,930 INFO basehttp "GET /static/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 2096
+2022-06-15 17:20:25,932 INFO basehttp "GET /static/tinymce/plugins/save/plugin.min.js HTTP/1.1" 200 1716
+2022-06-15 17:20:25,932 INFO basehttp "GET /static/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 15729
+2022-06-15 17:20:25,933 INFO basehttp "GET /static/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 17548
+2022-06-15 17:20:25,935 INFO basehttp "GET /static/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 20152
+2022-06-15 17:20:25,936 INFO basehttp "GET /static/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 200 397
+2022-06-15 17:20:25,937 INFO basehttp "GET /static/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 1132
+2022-06-15 17:20:25,938 INFO basehttp "GET /static/tinymce/plugins/codesample/plugin.min.js HTTP/1.1" 200 45705
+2022-06-15 17:20:25,938 INFO basehttp "GET /static/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 27941
+2022-06-15 17:20:25,939 INFO basehttp "GET /static/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 3008
+2022-06-15 17:20:25,940 INFO basehttp "GET /static/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 200 5336
+2022-06-15 17:20:25,941 INFO basehttp "GET /static/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 200 1389
+2022-06-15 17:20:25,942 INFO basehttp "GET /static/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 16476
+2022-06-15 17:20:25,943 INFO basehttp "GET /static/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 12105
+2022-06-15 17:20:25,944 INFO basehttp "GET /static/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 1380
+2022-06-15 17:20:25,945 INFO basehttp "GET /static/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 2731
+2022-06-15 17:20:25,946 INFO basehttp "GET /static/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 14605
+2022-06-15 17:20:25,947 INFO basehttp "GET /static/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 11666
+2022-06-15 17:20:25,948 INFO basehttp "GET /static/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 2712
+2022-06-15 17:20:25,948 INFO basehttp "GET /static/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 808
+2022-06-15 17:20:25,948 INFO basehttp "GET /static/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 200 740
+2022-06-15 17:20:25,948 INFO basehttp "GET /static/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 200 5776
+2022-06-15 17:20:25,950 INFO basehttp "GET /static/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 143478
+2022-06-15 17:20:25,950 INFO basehttp "GET /static/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 200 1630
+2022-06-15 17:20:25,979 INFO basehttp "GET /static/tinymce/skins/ui/oxide/skin.min.css HTTP/1.1" 200 61537
+2022-06-15 17:20:26,026 INFO basehttp "GET /static/tinymce/skins/content/default/content.min.css HTTP/1.1" 200 1399
+2022-06-15 17:20:26,026 INFO basehttp "GET /static/tinymce/skins/ui/oxide/content.min.css HTTP/1.1" 200 21834
+2022-06-15 17:20:31,874 INFO basehttp "GET /admin/app/posts/ HTTP/1.1" 200 10739
+2022-06-15 17:20:31,880 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:32,935 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-15 17:20:35,434 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:20:44,549 INFO basehttp "GET /admin/app/categorys/1/change/ HTTP/1.1" 200 15699
+2022-06-15 17:20:44,573 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:49,121 INFO basehttp "GET /admin/app/categorys/ HTTP/1.1" 200 14897
+2022-06-15 17:20:49,126 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:51,745 INFO basehttp "GET /admin/app/ HTTP/1.1" 200 8333
+2022-06-15 17:20:53,036 INFO basehttp "GET /admin/ HTTP/1.1" 200 19713
+2022-06-15 17:20:56,476 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11734
+2022-06-15 17:20:56,504 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:58,510 INFO basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 21368
+2022-06-15 17:20:58,529 INFO basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+2022-06-15 17:20:58,529 INFO basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+2022-06-15 17:20:58,531 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:20:58,545 INFO basehttp "GET /static/grappelli/images/icons/selector-add-m2m-horizontal.png HTTP/1.1" 200 2991
+2022-06-15 17:20:58,545 INFO basehttp "GET /static/grappelli/images/icons/searchbox.png HTTP/1.1" 200 3136
+2022-06-15 17:20:58,546 INFO basehttp "GET /static/grappelli/images/icons/selector-remove-m2m-horizontal.png HTTP/1.1" 200 2998
+2022-06-15 17:21:00,568 INFO basehttp "GET /static/grappelli/images/icons/selector-add-m2m-horizontal_hover.png HTTP/1.1" 200 2995
+2022-06-15 17:21:52,260 INFO basehttp "GET /static/grappelli/images/icons/selector-remove-m2m-horizontal_hover.png HTTP/1.1" 200 3003
+2022-06-15 17:21:59,805 INFO basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2022-06-15 17:21:59,855 INFO basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 21862
+2022-06-15 17:21:59,877 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:26,593 INFO basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2022-06-15 17:25:26,641 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13864
+2022-06-15 17:25:26,681 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:31,643 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 17:25:33,664 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 17:25:33,669 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:34,899 INFO basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 22251
+2022-06-15 17:25:34,916 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:38,422 INFO basehttp "GET /admin/ HTTP/1.1" 200 19716
+2022-06-15 17:25:40,267 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 17565
+2022-06-15 17:25:40,291 INFO basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2022-06-15 17:25:40,294 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:44,666 INFO basehttp "GET /admin/auth/user/1/change/ HTTP/1.1" 200 28285
+2022-06-15 17:25:44,682 INFO basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 68
+2022-06-15 17:25:44,683 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:25:44,687 INFO basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2022-06-15 17:26:07,721 INFO basehttp "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+2022-06-15 17:26:07,779 INFO basehttp "GET /admin/auth/user/1/change/ HTTP/1.1" 200 29376
+2022-06-15 17:26:07,793 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 17:26:15,493 INFO basehttp "GET /admin/ HTTP/1.1" 200 19731
+2022-06-15 17:55:37,065 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:55:55,032 INFO views Зашел username admin mail 
+2022-06-15 17:55:55,047 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 17:55:58,894 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 17:55:58,904 INFO views Зашел username admin mail 
+2022-06-15 17:55:58,913 INFO basehttp "GET /posts/0 HTTP/1.1" 200 6800
+2022-06-15 17:56:00,512 WARNING log Not Found: /posts/create/0
+2022-06-15 17:56:00,512 WARNING basehttp "GET /posts/create/0 HTTP/1.1" 404 3805
+2022-06-15 17:56:58,255 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/app/urls.py changed, reloading.
+2022-06-15 17:56:58,430 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 17:57:00,268 INFO basehttp "GET /posts/create/0 HTTP/1.1" 200 5810
+2022-06-15 17:57:00,329 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 17:57:00,329 INFO basehttp "GET /static/tinymce/plugins/imagetools/plugin.min.js HTTP/1.1" 200 19461
+2022-06-15 17:57:00,330 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:03:30,496 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:30,496 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:32,355 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:32,355 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:39,386 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:39,386 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:43,036 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:43,037 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:46,287 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:46,288 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:47,298 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:47,299 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:03:47,735 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:03:47,736 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:04:05,098 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:04:05,099 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:04:06,420 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:04:06,421 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:04:53,885 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:04:53,885 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:05:13,823 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:05:13,824 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:05:15,137 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:05:15,137 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:05:25,547 WARNING log Not Found: /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg
+2022-06-15 18:05:25,548 WARNING basehttp "GET /Users/eduardivanov/Downloads/Hardenstein_2014_-_Adventurers.jpg HTTP/1.1" 404 3189
+2022-06-15 18:05:33,124 INFO basehttp "POST /posts/create/0 HTTP/1.1" 302 0
+2022-06-15 18:05:33,135 INFO views Зашел username admin mail 
+2022-06-15 18:05:33,142 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7120
+2022-06-15 18:05:41,618 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 10534
+2022-06-15 18:05:41,660 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:05:41,667 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:05:48,962 INFO views Зашел username admin mail 
+2022-06-15 18:05:48,974 INFO basehttp "GET /posts/1 HTTP/1.1" 200 7120
+2022-06-15 18:05:50,809 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 10534
+2022-06-15 18:05:50,854 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:05:50,854 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:05:51,627 INFO basehttp "GET /posts/1/post/1/clicks/create HTTP/1.1" 301 0
+2022-06-15 18:05:51,653 INFO basehttp "GET /posts/1/post/1/clicks/create/ HTTP/1.1" 200 8589
+2022-06-15 18:06:05,938 INFO basehttp "POST /posts/1/post/1/clicks/create/ HTTP/1.1" 302 0
+2022-06-15 18:06:05,963 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 10727
+2022-06-15 18:06:06,001 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:06:06,002 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:06:08,357 INFO views Зашел username admin mail 
+2022-06-15 18:06:08,368 INFO basehttp "GET /posts/1 HTTP/1.1" 200 7120
+2022-06-15 18:06:48,479 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 10727
+2022-06-15 18:06:48,525 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:06:48,525 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:06:50,450 INFO views Зашел username admin mail 
+2022-06-15 18:06:50,457 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:06:53,496 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:06:54,733 INFO views Вышел username admin mail 
+2022-06-15 18:06:54,736 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:06:54,743 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:06:54,776 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:06:58,828 INFO basehttp "GET /accounts/signup/?next=%2F HTTP/1.1" 200 3782
+2022-06-15 18:07:34,419 ERROR models Ошибка отправки письма при регистрации iea32@mail.ru
+2022-06-15 18:07:35,183 ERROR log Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/decorators.py", line 20, in wrap
+    resp = function(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 234, in dispatch
+    return super(SignupView, self).dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 77, in dispatch
+    response = super(RedirectAuthenticatedUserMixin, self).dispatch(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 207, in dispatch
+    return super(CloseableSignupMixin, self).dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 105, in post
+    response = self.form_valid(form)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 252, in form_valid
+    return complete_signup(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 186, in complete_signup
+    return perform_login(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 168, in perform_login
+    response = adapter.pre_login(request, user, **hook_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 409, in pre_login
+    send_email_confirmation(request, user, signup=signup, email=email)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 319, in send_email_confirmation
+    email_address.send_confirmation(request, signup=signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/models.py", line 59, in send_confirmation
+    confirmation.send(request, signup=signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/models.py", line 166, in send
+    get_adapter(request).send_confirmation_mail(request, self, signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 549, in send_confirmation_mail
+    self.send_mail(email_template, emailconfirmation.email_address.email, ctx)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 140, in send_mail
+    msg.send()
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 743, in login
+    raise last_exception
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 655, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Error: authentication failed: This user does not have access rights to this service 1655305655-2kER2QLPiV-7YLuMQS8')
+2022-06-15 18:07:35,199 ERROR basehttp "POST /accounts/signup/ HTTP/1.1" 500 176440
+2022-06-15 18:08:05,639 INFO basehttp "GET /accounts/signup/ HTTP/1.1" 200 3722
+2022-06-15 18:08:06,567 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:08:07,807 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+2022-06-15 18:08:07,847 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 6125
+2022-06-15 18:08:07,937 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:08:07,964 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:08:10,112 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+2022-06-15 18:08:10,153 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 6125
+2022-06-15 18:08:18,981 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2022-06-15 18:08:18,996 INFO basehttp "GET /admin/ HTTP/1.1" 200 19731
+2022-06-15 18:08:21,722 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18046
+2022-06-15 18:08:21,743 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:21,745 INFO basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2022-06-15 18:08:27,160 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:08:28,601 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 18:08:28,607 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:30,020 INFO basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 21841
+2022-06-15 18:08:30,038 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:33,120 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:08:34,435 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18046
+2022-06-15 18:08:34,441 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:36,001 INFO basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28257
+2022-06-15 18:08:36,017 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:43,508 INFO basehttp "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+2022-06-15 18:08:43,550 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18476
+2022-06-15 18:08:43,572 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:08:47,493 INFO views Зашел username admin mail 
+2022-06-15 18:08:47,503 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:08:53,656 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:08:54,642 INFO views Вышел username admin mail 
+2022-06-15 18:08:54,648 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:08:54,656 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:08:54,685 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:09:11,008 INFO basehttp "POST /accounts/login/ HTTP/1.1" 200 3754
+2022-06-15 18:09:23,017 INFO basehttp "POST /accounts/login/ HTTP/1.1" 200 3754
+2022-06-15 18:09:33,720 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:09:33,724 INFO views Зашел username admin mail 
+2022-06-15 18:09:33,726 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:09:37,483 INFO basehttp "GET /admin/ HTTP/1.1" 200 20078
+2022-06-15 18:09:40,326 INFO basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28266
+2022-06-15 18:09:40,330 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:09:51,987 INFO views Зашел username admin mail 
+2022-06-15 18:09:51,993 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:09:54,344 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:09:55,586 INFO views Вышел username admin mail 
+2022-06-15 18:09:55,592 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:09:55,600 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:09:55,627 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:10:04,475 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:10:04,479 INFO views Зашел username Eduard mail iea32@mail.ru
+2022-06-15 18:10:04,480 INFO basehttp "GET / HTTP/1.1" 200 5000
+2022-06-15 18:10:05,923 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 18:10:05,935 INFO views Зашел username Eduard mail iea32@mail.ru
+2022-06-15 18:10:05,948 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7123
+2022-06-15 18:10:12,601 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 8498
+2022-06-15 18:10:16,327 INFO basehttp "GET /posts/1/post/1/clicks/create/ HTTP/1.1" 200 8592
+2022-06-15 18:10:33,456 INFO basehttp "POST /posts/1/post/1/clicks/create/ HTTP/1.1" 302 0
+2022-06-15 18:10:33,480 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 8679
+2022-06-15 18:10:35,708 INFO views Зашел username Eduard mail iea32@mail.ru
+2022-06-15 18:10:35,716 INFO basehttp "GET / HTTP/1.1" 200 5000
+2022-06-15 18:10:37,172 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 18:10:37,183 INFO views Зашел username Eduard mail iea32@mail.ru
+2022-06-15 18:10:37,200 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7123
+2022-06-15 18:10:39,834 INFO basehttp "GET /posts/create/0 HTTP/1.1" 200 5813
+2022-06-15 18:10:39,875 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:10:39,880 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:12:23,248 INFO basehttp "POST /posts/create/0 HTTP/1.1" 302 0
+2022-06-15 18:12:23,257 INFO views Зашел username Eduard mail iea32@mail.ru
+2022-06-15 18:12:23,265 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7423
+2022-06-15 18:12:34,095 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2730
+2022-06-15 18:12:35,436 INFO views Вышел username Eduard mail iea32@mail.ru
+2022-06-15 18:12:35,441 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:12:35,449 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:12:35,481 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:14:39,530 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:14:39,537 INFO views Зашел username admin mail 
+2022-06-15 18:14:39,538 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:14:41,183 INFO basehttp "GET /admin/ HTTP/1.1" 200 20191
+2022-06-15 18:14:43,716 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 18:14:43,721 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:14:45,926 INFO basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 21368
+2022-06-15 18:14:45,932 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:17:25,216 INFO basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2022-06-15 18:17:25,275 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 14140
+2022-06-15 18:17:25,296 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:23:41,382 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/project/models.py changed, reloading.
+2022-06-15 18:23:41,626 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 18:23:41,901 INFO basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 21841
+2022-06-15 18:23:41,917 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:24:51,566 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/project/models.py changed, reloading.
+2022-06-15 18:24:51,826 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 18:25:02,321 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/project/models.py changed, reloading.
+2022-06-15 18:25:02,481 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 18:25:48,073 INFO autoreload /Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/project/project/models.py changed, reloading.
+2022-06-15 18:25:48,255 INFO autoreload Watching for file changes with StatReloader
+2022-06-15 18:25:52,585 INFO views Зашел username admin mail 
+2022-06-15 18:25:52,589 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:25:55,247 INFO basehttp "GET /admin/ HTTP/1.1" 200 19718
+2022-06-15 18:25:57,539 INFO views Зашел username admin mail 
+2022-06-15 18:25:57,545 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:26:00,121 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:26:01,211 INFO views Вышел username admin mail 
+2022-06-15 18:26:01,216 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:26:01,223 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:26:01,251 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:26:13,884 INFO basehttp "GET /accounts/signup/?next=%2F HTTP/1.1" 200 3782
+2022-06-15 18:26:34,191 INFO basehttp "POST /accounts/signup/ HTTP/1.1" 200 3958
+2022-06-15 18:27:01,375 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:27:01,382 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:27:01,417 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:27:09,424 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:27:09,428 INFO views Зашел username admin mail 
+2022-06-15 18:27:09,430 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:27:11,440 INFO basehttp "GET /admin/ HTTP/1.1" 200 20061
+2022-06-15 18:27:14,153 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18101
+2022-06-15 18:27:14,160 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:14,193 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:31,328 INFO basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28334
+2022-06-15 18:27:31,333 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:38,509 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18101
+2022-06-15 18:27:38,517 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:47,013 INFO basehttp "POST /admin/auth/user/ HTTP/1.1" 200 9431
+2022-06-15 18:27:52,038 INFO basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+2022-06-15 18:27:52,078 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 17991
+2022-06-15 18:27:52,106 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:55,075 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:27:56,362 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13724
+2022-06-15 18:27:56,367 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:27:58,661 INFO basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 21841
+2022-06-15 18:27:58,667 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:28:01,905 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13724
+2022-06-15 18:28:01,911 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:28:09,807 INFO basehttp "POST /admin/auth/group/ HTTP/1.1" 200 8810
+2022-06-15 18:28:11,866 INFO basehttp "POST /admin/auth/group/ HTTP/1.1" 302 0
+2022-06-15 18:28:11,910 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13796
+2022-06-15 18:28:11,933 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:28:16,684 INFO views Зашел username admin mail 
+2022-06-15 18:28:16,688 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:28:19,389 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:28:20,443 INFO views Вышел username admin mail 
+2022-06-15 18:28:20,446 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:28:20,453 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:28:20,476 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:28:31,530 INFO basehttp "GET /accounts/signup/?next=%2F HTTP/1.1" 200 3782
+2022-06-15 18:28:52,682 ERROR models Ошибка отправки письма при регистрации iea32@mail.ru
+2022-06-15 18:28:53,422 ERROR log Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/decorators.py", line 20, in wrap
+    resp = function(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 234, in dispatch
+    return super(SignupView, self).dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 77, in dispatch
+    response = super(RedirectAuthenticatedUserMixin, self).dispatch(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 207, in dispatch
+    return super(CloseableSignupMixin, self).dispatch(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 105, in post
+    response = self.form_valid(form)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/views.py", line 252, in form_valid
+    return complete_signup(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 186, in complete_signup
+    return perform_login(
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 168, in perform_login
+    response = adapter.pre_login(request, user, **hook_kwargs)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 409, in pre_login
+    send_email_confirmation(request, user, signup=signup, email=email)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/utils.py", line 319, in send_email_confirmation
+    email_address.send_confirmation(request, signup=signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/models.py", line 59, in send_confirmation
+    confirmation.send(request, signup=signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/models.py", line 166, in send
+    get_adapter(request).send_confirmation_mail(request, self, signup)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 549, in send_confirmation_mail
+    self.send_mail(email_template, emailconfirmation.email_address.email, ctx)
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/allauth/account/adapter.py", line 140, in send_mail
+    msg.send()
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/eduardivanov/Yandex.Disk.localized/Documents/python/workspace/D19/venv/lib/python3.8/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 743, in login
+    raise last_exception
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 655, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Error: authentication failed: This user does not have access rights to this service 1655306933-SQvhLoK5O2-SrN8Psbx')
+2022-06-15 18:28:53,433 ERROR basehttp "POST /accounts/signup/ HTTP/1.1" 500 176449
+2022-06-15 18:29:26,295 INFO basehttp "GET /accounts/signup/ HTTP/1.1" 200 3722
+2022-06-15 18:29:27,226 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:29:28,485 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:29:28,527 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:29:29,370 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:29:29,667 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+2022-06-15 18:29:29,690 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 6125
+2022-06-15 18:29:37,557 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2022-06-15 18:29:37,570 INFO basehttp "GET /admin/ HTTP/1.1" 200 19653
+2022-06-15 18:29:42,251 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18047
+2022-06-15 18:29:42,257 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:29:44,460 INFO basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28268
+2022-06-15 18:29:44,475 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:29:54,746 INFO views Зашел username admin mail 
+2022-06-15 18:29:54,753 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:29:57,430 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2727
+2022-06-15 18:29:58,552 INFO views Вышел username admin mail 
+2022-06-15 18:29:58,556 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:29:58,565 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:29:58,595 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:30:08,802 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:30:08,806 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:30:08,807 INFO basehttp "GET / HTTP/1.1" 200 5002
+2022-06-15 18:30:11,956 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 18:30:11,969 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:30:11,984 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7124
+2022-06-15 18:30:21,318 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:30:21,329 INFO basehttp "GET /posts/2 HTTP/1.1" 200 6804
+2022-06-15 18:30:24,559 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:30:24,572 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7124
+2022-06-15 18:30:25,667 INFO basehttp "GET /posts/create/0 HTTP/1.1" 200 5814
+2022-06-15 18:30:25,712 WARNING basehttp "GET /static/tinymce/plugins/grappelli/plugin.min.js HTTP/1.1" 404 1876
+2022-06-15 18:30:25,712 WARNING basehttp "GET /static/tinymce/plugins/filebrowser/plugin.min.js HTTP/1.1" 404 1882
+2022-06-15 18:31:18,435 INFO basehttp "POST /posts/create/0 HTTP/1.1" 302 0
+2022-06-15 18:31:18,446 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:31:18,460 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7433
+2022-06-15 18:32:12,371 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 8500
+2022-06-15 18:32:14,186 INFO basehttp "GET /posts/1/post/1/clicks/create/ HTTP/1.1" 200 8593
+2022-06-15 18:32:20,842 INFO basehttp "POST /posts/1/post/1/clicks/create/ HTTP/1.1" 302 0
+2022-06-15 18:32:20,866 INFO basehttp "GET /posts/1/post/1 HTTP/1.1" 200 8680
+2022-06-15 18:32:23,250 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:32:23,267 INFO basehttp "GET /posts/1 HTTP/1.1" 200 7124
+2022-06-15 18:32:24,336 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:32:24,342 INFO basehttp "GET / HTTP/1.1" 200 5002
+2022-06-15 18:32:26,684 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 18:32:26,694 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:32:26,708 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7433
+2022-06-15 18:32:28,078 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:32:28,086 INFO basehttp "GET / HTTP/1.1" 200 5002
+2022-06-15 18:32:33,123 INFO basehttp "POST / HTTP/1.1" 302 0
+2022-06-15 18:32:33,133 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:32:33,149 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7433
+2022-06-15 18:33:36,920 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:33:36,932 INFO basehttp "GET /posts/1 HTTP/1.1" 200 7124
+2022-06-15 18:33:38,297 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:33:38,311 INFO basehttp "GET /posts/2 HTTP/1.1" 200 7113
+2022-06-15 18:33:39,582 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:33:39,590 INFO basehttp "GET /posts/0 HTTP/1.1" 200 7433
+2022-06-15 18:33:44,535 INFO views Зашел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:33:44,550 INFO basehttp "GET /posts/1 HTTP/1.1" 200 7124
+2022-06-15 18:33:59,198 INFO basehttp "GET /accounts/logout/ HTTP/1.1" 200 2731
+2022-06-15 18:34:00,103 INFO views Вышел username Eduard1 mail iea32@mail.ru
+2022-06-15 18:34:00,108 INFO basehttp "POST /accounts/logout/ HTTP/1.1" 302 0
+2022-06-15 18:34:00,116 INFO basehttp "GET / HTTP/1.1" 302 0
+2022-06-15 18:34:00,147 INFO basehttp "GET /accounts/login/?next=/ HTTP/1.1" 200 3622
+2022-06-15 18:34:07,824 INFO basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+2022-06-15 18:34:07,829 INFO views Зашел username admin mail 
+2022-06-15 18:34:07,830 INFO basehttp "GET / HTTP/1.1" 200 4985
+2022-06-15 18:34:10,047 INFO basehttp "GET /admin/ HTTP/1.1" 200 20110
+2022-06-15 18:34:20,052 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 18:34:20,057 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:34:21,895 INFO basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 21841
+2022-06-15 18:34:21,901 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:34:32,828 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:34:34,316 INFO basehttp "GET /admin/ HTTP/1.1" 200 19653
+2022-06-15 18:34:38,722 INFO basehttp "GET /admin/flatpages/flatpage/ HTTP/1.1" 200 13391
+2022-06-15 18:34:38,749 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:34:49,896 INFO basehttp "GET /admin/sites/site/ HTTP/1.1" 200 14046
+2022-06-15 18:34:49,904 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:18,942 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18047
+2022-06-15 18:55:18,948 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:22,637 INFO basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28304
+2022-06-15 18:55:22,642 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:41,012 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:55:42,206 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 18:55:42,212 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:43,510 INFO basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 21841
+2022-06-15 18:55:43,531 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:58,100 INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 13437
+2022-06-15 18:55:58,107 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:55:59,226 INFO basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 22251
+2022-06-15 18:55:59,231 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:00,947 INFO basehttp "GET /admin/auth/ HTTP/1.1" 200 8532
+2022-06-15 18:56:03,529 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18047
+2022-06-15 18:56:03,535 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:04,789 INFO basehttp "GET /admin/auth/user/1/change/ HTTP/1.1" 200 28870
+2022-06-15 18:56:04,806 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:13,968 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18047
+2022-06-15 18:56:13,975 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:15,060 INFO basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28304
+2022-06-15 18:56:15,064 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:29,267 INFO basehttp "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2022-06-15 18:56:29,300 INFO basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18502
+2022-06-15 18:56:29,318 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+2022-06-15 18:56:36,731 INFO basehttp "GET /admin/ HTTP/1.1" 200 19656
